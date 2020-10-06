@@ -1,0 +1,92 @@
+*{
+    font-family: Helvetica;
+    color: #fff
+}
+
+
+/*HEADER*/
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color: #ffb90b;
+    margin-top: 70px;
+    position: sticky;
+}
+
+header nav img{
+    width: 200px;
+    top: -65px;
+    position: absolute;
+}
+
+header nav ul{
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    margin-left: 160px;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 0px 10px;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav form {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 960px;
+    height: 650px;
+    margin: 40px auto; /*top right bottom left | vertical horizontal | allsidessamemargin*/
+}
+
+section .product {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000; 
+    /*float: left;*/   
+    display: inline-block;
+    margin:0 0 15px 10px;
+}
+
+section .img-label{
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 226px;
+}
+
+section .product-image-1{
+    background-image: url("../../img/product-1.jpg");
+}
+
+section .name-product{
+    text-align: center;
+    font-size: 20px;
+    background-color: #000000;
+    padding: 10px;
+    margin: 60px 0;
+}
+
+section .button{
+    background-color: #ff4500;
+    padding: 5px;
+    width: 90px;
+    height: 40px;
+    margin: 0 105px;
+}
