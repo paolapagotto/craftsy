@@ -3,7 +3,6 @@
     color: #fff
 }
 
-
 /*HEADER*/
 
 header {
@@ -43,7 +42,11 @@ header nav ul li a{
 
 header nav form {
     display: inline-block;
-    margin-left: 400px;
+    margin-left: 420px;
+}
+
+header form button {
+    color: #000;
 }
 
 /* CONTAINER */
@@ -108,3 +111,14 @@ footer {
     height: 100px;
     border-radius: 15px 15px 0px 0px;
 }
+
+/* PSEUDO-SELECTORS */
+
+section .product:hover{
+    opacity: 0.5;
+}
+
+header .form-header .input-header:focus{
+    outline-color: #f05331;
+}
+
