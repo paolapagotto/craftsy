@@ -75,6 +75,13 @@ section .product-image-1{
     background-image: url("../../img/product-1.jpg");
 }
 
+section .product-image-2{
+    background-image: url("../../img/product-2.jpg");
+}
+
+section .product-image-3{
+    background-image: url("../../img/product-3.jpg");
+}
 section .name-product{
     text-align: center;
     font-size: 20px;
@@ -89,4 +96,15 @@ section .button{
     width: 90px;
     height: 40px;
     margin: 0 105px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #ffb90b;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
 }
