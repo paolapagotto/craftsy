@@ -1,15 +1,49 @@
-h1 {
+main section h1 {
     color: #000000;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
 }
 
-p {
+main section p {
     color: #000000;
+    text-align: center;
+    font-size: 22px;
 }
 
-label {
+main section form {
+    /* text-align: center; */
+    width: 70%;
+    margin: 0 auto;
+}
+
+main section form label {
     color: #000000;
+    display: block;
+    /* text-align: start; */
+}
+
+form div.form-inline div{
+    display: inline-block;
+    margin: 10px;
+}
+
+form div.form-inline input.input-contato{
+    height: 20px;
+    width: 300px;
+}
+
+form div.form-inline textarea.textarea-contato{
+    resize: none;
+    width: 635px;
 }
 
 .botao-contato{
-    color: #000000;
+    background-color: #ffb90b;
+    font-weight: 500;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #ffb90b;
 }
